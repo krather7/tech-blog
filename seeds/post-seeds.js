@@ -1,19 +1,19 @@
 const { Post } = require('../models');
 
 const postData = [{
-        title: 'Lorem Ipsum I',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        title: 'Technology Today',
+        content: 'Technology is changing every day.  Staying up to date requires research and the ability to constantly learn.',
         user_id: 1
 
     },
     {
-        title: 'Lorem Ipsum II',
-        content: 'Amet aliquam id diam maecenas ultricies mi eget mauris pharetra.',
+        title: 'Stonks',
+        content: 'Investing in the stock market sounds like good advice.  Is the current market going to continue with this growth or is it in a bubble ready to burst?',
         user_id: 2
     },
     {
-        title: 'Lorem Ipsum III',
-        content: 'Ut etiam sit amet nisl purus in mollis.',
+        title: 'Console Wars',
+        content: 'New games for Playstation 5, the Nintendo Switch, and XBOX are being released every day.  Which console is pulling ahead?',
         user_id: 3
     }
 ];

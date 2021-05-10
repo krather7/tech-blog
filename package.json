@@ -11,14 +11,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:jakekelly44/tech-blog.git"
+        "url": "https://github.com/krather7/tech-blog"
     },
-    "author": "Jake Kelly",
+    "author": "Kyle Rather",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/jakekelly44/tech-blog/issues"
+        "url": "https://github.com/krather7/tech-blog/issues"
     },
-    "homepage": "https://github.com/jakekelly44/tech-blog#readme",
+    "homepage": "https://github.com/krather7/tech-blog/blob/main/README.md",
     "dependencies": {
         "bcrypt": "^5.0.0",
         "connect-session-sequelize": "^6.1.1",
