@@ -12,13 +12,14 @@
                   }
                   
                   body {
-                      background-color: var(--primary);
+                      background-color: #ffffff;
                       margin: 0;
                       padding: 0;
-                      font-family: "IBM Plex Sans", sans-serif;
+                      font-family: 'Open Sans', sans-serif;
                       color: var(--dark);
                       line-height: 1.5;
                       font-size: 24px;
+                      font-weight:bolder;
                   }
                   
                   h1,
@@ -107,7 +108,7 @@
                   .hero {
                       padding: 3% 4%;
                       background-color: var(--dark);
-                      color: var(--primary);
+                      background-color: #3e3e3e;
                   }
                   
                   .hero p {
@@ -116,7 +117,7 @@
                   
                   .app-title {
                       font-size: 3rem;
-                      background-color: var(--primary);
+                      background-color: #ffffff;
                       color: var(--dark);
                       padding: 0 10px;
                       display: inline-block;
@@ -165,8 +166,9 @@
                   }
                   
                   .card-header {
-                      color: var(--primary);
-                      background-color: var(--dark);
+                    color: #ffffff;
+                      background-color: #3e3e3e;
+                      opacity: 65%;
                       padding: 1%;
                       border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
                   }
@@ -183,7 +185,7 @@
                   }
                   
                   .link {
-                      color: var(--light-dark);
+                    color: #ffffff;
                   }
                   
                   .login-link {

@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MVC Tech Blog</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -19,6 +21,10 @@
                     <a class="link" href="/" id="logout">Logout</a>
                     {{else}}
                     <a class="link" href="/login">Login</a>
+                    {{/if}}
+                    {{#if loggedIn}}
+                    {{else}}
+                    <a class="link" href="/signup">Sign Up</a>
                     {{/if}}
                 </nav>          
           </div>
